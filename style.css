@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#mainFrame{
+    width: 90%;
+    height: 75%;
+    display: none;
+}
+
+#takeScreenshot{
+    padding: 10px 15px;
+    font-size: 5vw;
+    cursor: pointer;
+    color: white;
+    background: green;
+    border: 0;
+    outline: none;
+    font-weight: bolder;
+}
+
+#takeScreenshot:active{
+    background: red;
+}
+
+i{
+    font-size: 2.25pc;
+    background: rgba(255, 0, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 1.25px rgba(255, 0, 255, 0.3);
+    cursor: pointer;
+}
+
+i:active{
+    box-shadow: none;
+    transform: translateX(4px) translateY(4px);
+}
