@@ -1,5 +1,3 @@
-// document.getElementById("mainFrame").style.backgroundImage=`url("https://picsum.photos/${parseInt(window.innerWidth*0.9)}/${parseInt(window.innerHeight*0.75)}")`
-
 document.getElementById("mainFrame2").setAttribute('src',`https://picsum.photos/${parseInt(window.innerWidth*0.9)}/${parseInt(window.innerHeight*0.75)}`);
 
 document.getElementById("mainFrame").setAttribute('height',`${parseInt(window.innerHeight*0.75)}`);
@@ -18,9 +16,6 @@ window.addEventListener('resize',()=>{
 
 
 function takeShot(){
-    // html2canvas(document.getElementById('mainFrame'),{dpi:300}).then(canvas=>{
-    //     console.log(canvas.toDataURL('image/png'));
-    // });
 
     canvasFrame = document.getElementById('mainFrame');
     imgObject = document.getElementById('mainFrame2');
